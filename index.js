@@ -53,7 +53,7 @@ app.listen(PORT, () => {
   console.log(` To-Do API is running at http://localhost:${PORT}`);
 });
 
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const User = require('./models/User');
 
